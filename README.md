@@ -40,46 +40,6 @@ git push origin feature/my-feature
 
 ## 🚀 Quick Start - GitHub Integration
 
-### 📤 Push Your Project to GitHub
-
-1. **Create a new repository on GitHub:**
-   - Go to [GitHub](https://github.com) and click "New repository"
-   - Name your repository (e.g., "biovault" or "bio-app")
-   - Choose visibility (Public or Private)
-   - **Don't** initialize with README, .gitignore, or license (we already have these)
-
-2. **Initialize Git and push from your local directory:**
-```bash
-# Navigate to your project directory
-cd c:\Users\YOURUSERNAME\Documents\GitHub\BioVault
-
-# Initialize git repository (if not already done)
-git init
-
-# Add all files to git
-git add .
-
-# Create initial commit
-git commit -m "Initial commit: BioVault secure identity management app"
-
-# Add your GitHub repository as remote origin
-# Replace YOUR_USERNAME and YOUR_REPOSITORY with your actual GitHub info
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-
-# Push to GitHub
-git branch -M main
-git push -u origin main
-```
-
-3. **Alternative: Using GitHub CLI (if installed):**
-```bash
-# Navigate to project directory
-cd c:\Users\YOURUSERNAME\Documents\GitHub\BioVault
-
-# Create repository and push in one command
-gh repo create biovault --public --source=. --remote=origin --push
-```
-
 ### 📥 Clone and Setup on Any Computer
 
 #### **For New Contributors/Users:**
@@ -87,12 +47,12 @@ gh repo create biovault --public --source=. --remote=origin --push
 1. **Clone the repository:**
 ```bash
 # Clone using HTTPS
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-cd YOUR_REPOSITORY
+git clone https://github.com/xdagee/BioVault.git
+cd BioVault
 
 # Or clone using SSH (if you have SSH keys set up)
-git clone git@github.com:YOUR_USERNAME/YOUR_REPOSITORY.git
-cd YOUR_REPOSITORY
+git clone git@github.com:xdagee/BioVault.git
+cd BioVault
 ```
 
 2. **Set up Python environment:**

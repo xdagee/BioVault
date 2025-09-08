@@ -185,3 +185,4 @@ cython_debug/
 
 logs
 uploads
+bio_app.db
