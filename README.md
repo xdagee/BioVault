@@ -11,8 +11,8 @@ BioVault is designed for developers and system administrators who need a robust,
 ### Essential Commands
 ```bash
 # First time setup (after cloning)
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-cd YOUR_REPOSITORY
+git clone https://github.com/xdagee/BioVault.git
+cd BioVault
 python -m venv venv
 venv\Scripts\activate  # Windows
 pip install -r requirements.txt
@@ -32,8 +32,8 @@ git push origin feature/my-feature
 ```
 
 ### Repository URLs
-- **HTTPS Clone**: `https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git`
-- **SSH Clone**: `git@github.com:YOUR_USERNAME/YOUR_REPOSITORY.git`
+- **HTTPS Clone**: `https://github.com/xdagee/BioVault.git`
+- **SSH Clone**: `git@github.com:xdagee/BioVault.git`
 - **Application URL**: `http://localhost:8080`
 - **Health Check**: `http://localhost:8080/health`
 - **Metrics**: `http://localhost:8080/metrics`
@@ -51,7 +51,7 @@ git push origin feature/my-feature
 2. **Initialize Git and push from your local directory:**
 ```bash
 # Navigate to your project directory
-cd c:\Users\twentytwo\Documents\bio
+cd c:\Users\YOURUSERNAME\Documents\GitHub\BioVault
 
 # Initialize git repository (if not already done)
 git init
@@ -74,7 +74,7 @@ git push -u origin main
 3. **Alternative: Using GitHub CLI (if installed):**
 ```bash
 # Navigate to project directory
-cd c:\Users\twentytwo\Documents\bio
+cd c:\Users\YOURUSERNAME\Documents\GitHub\BioVault
 
 # Create repository and push in one command
 gh repo create biovault --public --source=. --remote=origin --push
