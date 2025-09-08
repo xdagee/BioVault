@@ -1,0 +1,12 @@
+{
+    "python.analysis.extraPaths": [
+        "./src"
+    ],
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "off",
+    "basedpyright.analysis.extraPaths": [
+        "./src"
+    ],
+    "basedpyright.analysis.typeCheckingMode": "basic",
+    "basedpyright.analysis.autoImportCompletions": true
+}
