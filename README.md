@@ -342,8 +342,8 @@ lsof -ti:8080 | xargs kill
 
 1. **If cloning from GitHub:**
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-cd YOUR_REPOSITORY
+git clone https://github.com/xdagee/BioVault.git
+cd BioVault
 python -m venv venv
 venv\Scripts\activate  # Windows
 pip install -r requirements.txt
