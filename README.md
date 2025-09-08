@@ -340,13 +340,7 @@ lsof -ti:8080 | xargs kill
 
 ### Installation & Setup
 
-1. **If you already have the code locally:**
-```bash
-cd c:\Users\twentytwo\Documents\bio
-pip install -r requirements.txt
-```
-
-2. **If cloning from GitHub:**
+1. **If cloning from GitHub:**
 ```bash
 git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
 cd YOUR_REPOSITORY
